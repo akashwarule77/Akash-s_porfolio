@@ -1,0 +1,135 @@
+/* About.css */
+
+/* General styles */
+
+#about {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  padding-bottom: 8rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+}
+
+.about-info {
+  flex: 1 1 100%; /* Change flex property */
+  padding: 0 20px;
+  text-align: center;
+  padding-top: 2rem;
+  
+}
+
+.about-photo {
+  flex: 1 1 100%; /* Change flex property */
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-photo img {
+  max-width: 100%; /* Ensure image doesn't exceed its container */
+  height: 350px; /* Maintain aspect ratio */
+  border-radius: 15px;
+  border: 3px solid rgb(21, 21, 135);
+}
+
+#about h1 {
+  text-align: center;
+  color: rgb(15, 15, 36);
+}
+
+.email {
+  color: rgb(21, 21, 135);
+}
+
+.resume {
+  color: rgb(15, 15, 36);
+  border-color: rgb(15, 15, 36);
+  height: auto;
+  border-radius: 5px solid rgb(15, 15, 36);
+  text-decoration: none;
+  border: 3px solid rgb(15, 15, 36);
+  border-radius: 5px;
+  width: 70px;
+  border-color: rgb(21, 21, 135);
+}
+
+.button {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: white;
+  background-size: 400%;
+  color: #fff;
+  border: 3px solid rgb(21, 21, 135);
+  cursor: pointer;
+}
+
+.button:hover::before {
+  transform: scaleX(1);
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  );
+  transition: all 0.475s;
+}
+
+.button a {
+  text-decoration: none;
+  color: rgb(15, 15, 36);
+}
+
+.resume:hover {
+  background-color: rgb(15, 15, 36);
+  color: white;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 20px; /* Adjust padding for smaller screens */
+  }
+
+  .about-info,
+  .about-photo {
+    flex: 1 1 100%; /* Reset flex properties for mobile */
+    margin-left: 0; /* Reset margin for mobile */
+  }
+
+  .about-photo {
+    margin-top: 20px; /* Add space between sections */
+  }
+
+  .resume {
+    width: auto; /* Reset width for mobile */
+    padding: 10px 20px; /* Adjust padding for mobile */
+    font-size: 14px; /* Adjust font size for mobile */
+  }
+}

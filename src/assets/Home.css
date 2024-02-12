@@ -1,0 +1,53 @@
+/* Home.css */
+.akphoto {
+    width: 100%; /* Make the image responsive */
+    max-width: 100%; /* Ensure the image does not exceed its original size */
+    height: auto; /* Automatically adjust the height based on the width */
+}
+
+
+
+.container {
+    max-width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .left-content {
+    flex: 1; /* Take up half of the container */
+    /* Add margin to create a gap between containers */
+    
+  }
+  
+  .right-content {
+    flex: 1; /* Take up the other half of the container */
+    
+  }
+
+  .left-content h1 {
+    font-size: 80px; /* Increase the font size of the h1 element */
+    color: rgb(15, 15, 36);
+  }
+  
+  .left-content h2 {
+    font-size: 40px; /* Increase the font size of the h2 element */
+    color: rgb(15, 15, 36);
+  }
+  .left-content p{
+    font-size: 25px; /* Increase the font size of the h2 element */
+    color: rgb(15, 15, 36);
+  }
+
+  .social-icons a{
+    color: rgb(15, 15, 36);
+    padding: 8px;
+  }
+.social-icons a svg {
+        width: 30px; /* Set the width of the icons to 40 pixels */
+        height: 30px;
+        
+  }
+
+   
+  

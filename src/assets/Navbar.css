@@ -1,0 +1,57 @@
+/* Navbar.css */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Adjust z-index as needed */
+    background-color: #f9f9f9;
+    
+}
+
+.content {
+    padding-top: 60px; /* Adjust this value to match the height of your navbar */
+}
+
+/* Your existing styles */
+.navbar-brand {
+    color: rgb(15, 15, 36);
+}
+
+.navbar-nav a {
+    color: rgb(15, 15, 36);
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+    .navbar-brand img {
+        height: 30px;
+        width: 30px;
+    }
+    
+    .navbar-toggler {
+        text-align: center; /* Center the toggle button */
+        width: 100%; /* Make the button take full width */
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-brand img {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar-brand img {
+        margin-left: 10px;
+    }
+}
+.navbar-toggler {
+    width: auto; /* Reset width to auto */
+}
