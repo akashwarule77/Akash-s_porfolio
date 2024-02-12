@@ -11,7 +11,7 @@ export default function About() {
                 <div className="about-info">
                     <h3><b>I'm Akash warule</b></h3>
                     <p><b>FullStack Web Developer</b></p>
-                    <p>I am a Full-Stack Web developer based in Nashik, India. I am an Information Technology undergraduate from Sanjivani collage of Engineering kopargoan. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my skills. Love to build Full-Stack clones.</p>
+                    <p>I am a Full-Stack Web developer based in Nashik, India.And i done my Btech from Sanjivani collage of Engineering kopargoan. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my skills. Love to build Full-Stack clones.</p>
                     <p><span className='email'><b>Email: </b></span>akashwarule6725@gmail.com</p>
                     <p><span className='email'><b>Moblie no:  </b></span>9130583376</p>
                     <div className="about-photo">
